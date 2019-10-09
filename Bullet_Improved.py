@@ -48,8 +48,8 @@ g = 9.8
 
 t = math.sqrt(2*Y/g)
 
-Xend = V0*t + windSpeed*math.cos(math.radians(windDirection-aimY))*t
-Z = windSpeed*math.sin(math.radians(windDirection-aimY))*t
+Xend = V0*t + windSpeed*math.cos(math.radians(windDirection-aimX))*t
+Z = windSpeed*math.sin(math.radians(windDirection-aimX))*t
 
 
 
